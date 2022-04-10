@@ -1,13 +1,13 @@
 ## Masakapahariini Api 🧙 🍳
 ---
 
-![preview](https://github.com/tomorisakura/unofficial-masakapahariini-api/blob/main/asset/banner.png)
+![preview](httg)
 
 ---
 
 Food recipes api bahasa Indonesia 🇮🇩 build with __Cheerio__ and __Node js__ 🌸
 
-**Status** : Maintained 🚀
+**Status** sukses / on
 
 ### Documentation
 ---
@@ -23,7 +23,7 @@ Food recipes api bahasa Indonesia 🇮🇩 build with __Cheerio__ and __Node js_
 
 ### Endpoint Usage
 ---
-**Base Url** : `https://masak-apa.tomorisakura.vercel.app`
+*
 
 | Endpoint | Usage | Example |
 |----------|-------|---------|
@@ -42,9 +42,8 @@ Food recipes api bahasa Indonesia 🇮🇩 build with __Cheerio__ and __Node js_
 ### Show Case
 ---
 
-* __Masak Apa__ [(Android Kotlin 🧙‍♂️)](https://github.com/tomorisakura/masak-apa)
-
+* __Masak Apa__ 
 #### Credits
-Copyright © 2020 Reski Arianto
+Copyright © 2020 ALFI
 
 Build With 💙
