@@ -5,9 +5,9 @@ const controller = require('../controller/index');
 
 route.get('/', (req, res) => {
     res.send({
-        greet : 'Hello there 👋',
+        greet : 'Hello world 👋',
         message : 'visit link on bellow for documentation about masak apa hari ini 👇',
-        documentation : 'https://github.com/tomorisakura/unofficial-masakapahariini-api'
+        documentation : 'https://github.com/alpin1234567/masakan-alfin'
     });
 });
 
@@ -17,9 +17,9 @@ route.get('/api', (req, res) => {
         message : 'Hello there 🌹',
         status : 'On Progress 🚀',
         lets_connected : {
-            github : 'https://github.com/tomorisakura',
-            dribbble : 'https://dribbble.com/grevimsx',
-            deviantart : 'https://deviantart.com/hakureix'
+            github : 'https://github.com/alpin1234567/',
+            whatsApp : '089690719275',
+            instagram : 'alpinnigan'
         }
     });
 });
@@ -40,7 +40,7 @@ route.get('/api/article/:tag/:key', controller.articleDetails);
 route.get('*', (req, res) => {
     res.status(404).json({
         method : req.method,
-        message : 'cant find spesific endpoint, please make sure you read a documentation',
+        message : 'tidak dapat menemukan titik akhir tertentu, pastikan Anda membaca dokumentasi',
         status : false,
         code : 401,
     });
